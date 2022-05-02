@@ -1,0 +1,5 @@
+FROM alpine:3
+
+ENV ADDRESS=1.1.1.1
+
+ENTRYPOINT [ "/bin/sh", "-c", "ping ${ADDRESS}" ]
