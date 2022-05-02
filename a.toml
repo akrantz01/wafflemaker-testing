@@ -1,0 +1,9 @@
+[docker]
+  image = "akrantz/wafflemaker-testing"
+  tag = "ping"
+
+[web]
+  enabled = false
+
+[environment]
+  address = "b.wafflemaker.internal"
