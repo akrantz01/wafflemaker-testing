@@ -1,0 +1,9 @@
+[docker]
+  image = "mendhak/http-https-echo"
+  tag = "23"
+
+[web]
+  enabled = true
+
+[environment]
+  disable_request_logs = "true"

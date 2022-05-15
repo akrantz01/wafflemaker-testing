@@ -1,0 +1,10 @@
+[docker]
+  image = "mendhak/http-https-echo"
+  tag = "23"
+
+[web]
+  enabled = true
+  path = "/prefixed"
+
+[environment]
+  disable_request_logs = "true"
