@@ -1,0 +1,7 @@
+[docker]
+  image = "akrantz/wafflemaker-testing"
+  tag = "sleep"
+
+[web]
+  enabled = false
+

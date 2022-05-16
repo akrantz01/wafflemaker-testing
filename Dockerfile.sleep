@@ -1,0 +1,5 @@
+FROM alpine:3
+
+ENV DURATION=1d
+
+ENTRYPOINT [ "/bin/sh", "-c", "sleep ${DURATION}" ]
