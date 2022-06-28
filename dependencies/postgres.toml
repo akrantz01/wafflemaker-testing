@@ -1,0 +1,9 @@
+[docker]
+  image = "akrantz/wafflemaker-testing"
+  tag = "sleep"
+
+[dependencies]
+  postgres = { role = "testing" }
+
+[web]
+  enabled = false

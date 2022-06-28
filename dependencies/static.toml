@@ -1,0 +1,9 @@
+[docker]
+  image = "akrantz/wafflemaker-testing"
+  tag = "sleep"
+
+[dependencies]
+  redis = true
+
+[web]
+  enabled = false
