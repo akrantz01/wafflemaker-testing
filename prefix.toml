@@ -3,8 +3,8 @@
   tag = "23"
 
 [web]
-  enabled = true
-  path = "/prefixed"
+  domain = "prefix.wafflehacks.org"
+  path = "/path"
 
 [environment]
   disable_request_logs = "true"

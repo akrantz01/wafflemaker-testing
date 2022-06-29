@@ -3,7 +3,7 @@
   tag = "23"
 
 [web]
-  enabled = true
+  domain = "sub.wafflehacks.org"
 
 [environment]
   disable_request_logs = "true"
